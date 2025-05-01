@@ -100,7 +100,7 @@ body {
 
 @keyframes flower-leaf-1{
     0% {transform: rotate(10deg)  scale(0.8) rotateY(-45deg)}
-    100%{transform: rotate(-10deg) scale(1)rotateY(-45deg)}
+    100%{transform: rotate(-10deg) scale(1) rotateY(-45deg)}
 } 
 
 
@@ -110,7 +110,7 @@ body {
     height: 95px;
     background: radial-gradient(rgb(255, 94, 121), pink);
     top: 32%;
-    left: 51%;
+    left: 50%;
     transform: rotate(29deg) rotateY(45deg);
     transform-origin: bottom;
     border-radius: 50% 50% 50% 50%;
@@ -250,30 +250,58 @@ body {
     height: 75px;
     background: radial-gradient(rgb(255, 94, 121), pink);
     top: 54%;
-    left: 48%;
+    left: 49%;
+    transform-origin: bottom;
     transform: rotate(-10.5deg) rotateY(-45deg);
     border-radius: 50% 50% 50% 50%;
+    animation-name: flower-leaf-4;
+    animation-duration: 6s;
+    animation-duration: 1;
 }
+
+@keyframes flower-leaf-4{
+    0% {transform: scale(0.8) rotate(15.5deg) rotateY(-45deg)}
+    100%{transform: scale(1) rotate(-10.5deg) rotateY(-45deg)}
+} 
 
 .flower-leaf-5 {
     width: 60px;
     height: 75px;
     background: radial-gradient(rgb(255, 94, 121), pink);
-    top: 55.5%;
-    left: 65.5%;
-    transform: rotate(30deg) rotateY(-45deg);
+    top: 55%;
+    left: 57.5%;
+    transform: rotate(37deg) rotateY(45deg);
     border-radius: 50% 50% 50% 50%;
+    transform-origin: bottom;
+    animation-name: flower-leaf-5;
+    animation-duration: 6s;
+    animation-duration: 1;
 }
+
+@keyframes flower-leaf-5{
+    0% {transform: scale(0.8) rotate(15.5deg) rotateY(45deg)}
+    100%{transform: scale(1) rotate(37deg) rotateY(45deg)}
+} 
 
 .flower-leaf-6{
     width: 60px;
     height: 80px;
     background: linear-gradient(rgb(255, 94, 121), pink);
     top: 54%;
-    left: 57%;
+    left: 53%;
+    transform-origin: bottom;
     transform: rotate(15.5deg);
     border-radius: 50% 50% 45% 45%;
+    animation-name: flower-leaf-6;
+    animation-duration: 6s;
+    animation-duration: 1;
 }
+
+@keyframes flower-leaf-6{
+    0% {transform: scale(0.8) rotate(15.5deg)}
+    100%{transform: scale(1) rotate(15.5deg)}
+} 
+
 
 
 
