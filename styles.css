@@ -290,6 +290,39 @@ body {
     transform: rotate(-15deg);
 }
 
+.bud-leaf-7 {
+    width: 70px;
+    height: 85px;
+    background: radial-gradient(rgb(255, 94, 121), pink);
+    top: 49%;
+    left: -2%;
+    transform: rotate(-25deg) rotateY(-45deg);
+    border-radius: 50% 50% 50% 50%;
+}
+
+.bud-leaf-8 {
+    width: 70px;
+    height: 85px;
+    background: radial-gradient(rgb(255, 94, 121), pink);
+    top: 47%;
+    left: 17%;
+    transform: rotate(5deg) rotateY(-45deg);
+    border-radius: 50% 50% 50% 50%;
+}
+
+.bud-leaf-9{
+    width: 70px;
+    height: 90px;
+    background: linear-gradient(rgb(255, 94, 121), pink);
+    top: 48%;
+    left: 8%;
+    transform: rotate(-15deg);
+    border-radius: 50% 50% 45% 45%;
+}
+
+
+
+
 
 
 
