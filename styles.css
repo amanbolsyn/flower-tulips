@@ -133,61 +133,97 @@ body {
 }
 
 .bud-9 {
-    top: 76%;
-    left: 55.6%;
-    height:5%;
-    transform: rotate(12deg);
+    top: 77.5%;
+    left: 55.8%;
+    height:3%;
+    transform: rotate(11deg);
 }
 
 
 .bud-10 {
-    top: 72%;
-    left: 57.3%;
-    height:5%;
-    transform: rotate(13deg);
+    top: 75%;
+    left: 56.8%;
+    height:3%;
+    transform: rotate(11.5deg);
 }
 
 .bud-11 {
-    top: 67.5%;
-    left: 59.5%;
-    height:5%;
-    transform: rotate(14deg);
+    top: 73%;
+    left: 57.6%;
+    height:3%;
+    transform: rotate(12deg);
 }
 
 .bud-12 {
-    top: 63%;
-    left: 61.6%;
-    height:5%;
+    top: 71.5%;
+    left: 58.6%;
+    height:2%;
+    transform: rotate(13.5deg);
+}
+
+.bud-13 {
+    top: 69%;
+    left: 59.4%;
+    height:3%;
+    transform: rotate(14deg);
+}
+
+.bud-14 {
+    top: 65.5%;
+    left: 60.6%;
+    height:4%;
+    transform: rotate(14.5deg);
+}
+
+.bud-14 {
+    top: 67.5%;
+    left: 60.6%;
+    height:2%;
+    transform: rotate(14.5deg);
+}
+
+.bud-15 {
+    top: 66%;
+    left: 61%;
+    height:3%;
     transform: rotate(15deg);
 }
+
+.bud-16 {
+    top: 63.5%;
+    left: 62.4%;
+    height: 3%;
+    transform: rotate(15.5deg);
+}
+
 
 
 .tulip-3 {
     top:20%;
 }
 
-.bud-13 {
+.bud-17 {
     top: 95%;
     left: 50%;
     height:5%;
     transform: rotate(-25deg);
 }
 
-.bud-14 {
+.bud-18 {
     top: 91%;
     left: 46.4%;
     height:5%;
     transform: rotate(-25.5deg);
 }
 
-.bud-15 {
+.bud-19 {
     top: 89.5%;
     left: 43%;
     height:3%;
     transform: rotate(-24deg);
 }
 
-.bud-16 {
+.bud-20 {
     top: 87%;
     left: 40.8%;
     height:3%;
@@ -195,7 +231,7 @@ body {
 }
 
 
-.bud-17 {
+.bud-21 {
     top: 82.5%;
     left: 38.7%;
     height:5%;
@@ -203,14 +239,14 @@ body {
 }
 
 
-.bud-18 {
+.bud-22 {
     top: 78%;
     left: 35%;
     height:5%;
     transform: rotate(-21deg);
 }
 
-.bud-19 {
+.bud-23 {
     top: 75.5%;
     left: 31.5%;
     height:3%;
@@ -218,28 +254,28 @@ body {
 }
 
 
-.bud-20{
+.bud-24{
     top: 73%;
     left: 29.8%;
     height:3%;
     transform: rotate(-18deg);
 }
 
-.bud-21{
+.bud-25{
     top: 70.5%;
     left: 28.2%;
     height:3%;
     transform: rotate(-17deg);
 }
 
-.bud-22{
+.bud-26{
     top: 68%;
     left: 26.6%;
     height:3%;
     transform: rotate(-16deg);
 }
 
-.bud-23{
+.bud-27{
     top: 64.5%;
     left: 25.2%;
     height:4%;
@@ -247,7 +283,7 @@ body {
 }
 
 
-.bud-24{
+.bud-28{
     top: 61%;
     left: 23.2%;
     height:4%;
