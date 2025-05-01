@@ -302,9 +302,6 @@ body {
     100%{transform: scale(1) rotate(15.5deg)}
 } 
 
-
-
-
 .tulip-3 {
     top:20%;
 }
@@ -402,10 +399,19 @@ body {
     height: 85px;
     background: radial-gradient(rgb(255, 94, 121), pink);
     top: 49%;
-    left: -2%;
-    transform: rotate(-25deg) rotateY(-45deg);
+    left: 5%;
+    transform-origin: bottom;
+    transform: rotate(-35deg) rotateY(-45deg);
     border-radius: 50% 50% 50% 50%;
+    animation-name: flower-leaf-7;
+    animation-duration: 6s;
+    animation-duration: 1;
 }
+
+@keyframes flower-leaf-7{
+    0% {transform: scale(0.8) rotate(-15deg) rotateY(-45deg)}
+    100%{transform: scale(1) rotate(-35deg) rotateY(-45deg)}
+} 
 
 .flower-leaf-8 {
     width: 70px;
@@ -413,19 +419,37 @@ body {
     background: radial-gradient(rgb(255, 94, 121), pink);
     top: 47%;
     left: 17%;
+    transform-origin: bottom;
     transform: rotate(5deg) rotateY(-45deg);
     border-radius: 50% 50% 50% 50%;
+    animation-name: flower-leaf-8;
+    animation-duration: 6s;
+    animation-duration: 1;
 }
+
+@keyframes flower-leaf-8{
+    0% {transform: scale(0.8) rotate(-15deg) rotateY(-45deg)}
+    100%{transform: scale(1) rotate(5deg) rotateY(-45deg)}
+} 
 
 .flower-leaf-9{
     width: 70px;
     height: 90px;
     background: linear-gradient(rgb(255, 94, 121), pink);
     top: 48%;
-    left: 8%;
+    left: 12%;
+    transform-origin: bottom;
     transform: rotate(-15deg);
     border-radius: 50% 50% 45% 45%;
+    animation-name: flower-leaf-9;
+    animation-duration: 6s;
+    animation-duration: 1;
 }
+
+@keyframes flower-leaf-9{
+    0% {transform: scale(0.8) rotate(-15deg)}
+    100%{transform: scale(1) rotate(-15deg)}
+} 
 
 @media screen and (max-width: 374px){
     .tulips-container {
