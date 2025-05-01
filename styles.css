@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "tulips-container";
+    width: 100vw;
+    /* height:100vh; */
+    place-items: center;
+
+}
+
+.tulips-container {
+    grid-area: tulips-container;
+    display:grid;
+    grid-template-areas:
+    "tulip-1";
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
+
+.tulip-1 {
+    position: relative;
+    grid-area: tulip-1;
+    width: 400px;
+}
+
+.bud {
+    position:absolute;
+    width: 10px;
+    transform-origin: bottom;
+    background: linear-gradient(to right,rgb(62, 229, 62), rgb(0, 159, 0));
+
+}
+
+.bud-1 {
+    top: 90%;
+    left: 50%;
+    height:10%;
+}
+
+.bud-2 {
+    top: 81%;
+    left: 50%;
+    height:10%;
+    transform: rotate(2deg);
+}
+
+.bud-3 {
+    top: 71%;
+    left: 50.6%;
+    height:10%;
+    transform: rotate(3deg);
+}
+
+.bud-4 {
+    top: 62%;
+    left: 51.5%;
+    height:10%;
+    transform: rotate(5deg);
+}
+
+.bud-5 {
+    top: 53%;
+    left: 53%;
+    height:10%;
+    transform: rotate(7deg);
+}
+
+
+.bud-leaf {
+    position: absolute;
+}
+
+.bud-leaf-1 {
+    width: 80px;
+    height: 95px;
+    background: radial-gradient(rgb(255, 94, 121), pink);
+    top: 41%;
+    left: 41%;
+    transform: rotate(-10deg) rotateY(-45deg);
+    border-radius: 50% 50% 50% 50%;
+}
+
+.bud-leaf-2 {
+    width: 80px;
+    height: 95px;
+    background: radial-gradient(rgb(255, 94, 121), pink);
+    top: 42%;
+    left: 54%;
+    transform: rotate(25deg) rotateY(45deg);
+    border-radius: 50% 50% 50% 50%;
+}
+
+.bud-leaf-3 {
+    width: 80px;
+    height: 100px;
+    background: linear-gradient(rgb(255, 94, 121), pink);
+    top: 41%;
+    left: 47.5%;
+    transform: rotate(7deg);
+    border-radius: 50% 50% 45% 45%;
+}
+
+
+@media screen and (max-width: 374px){
+    .tulip-1 {
+        display: none;
+    }
+    
+}
