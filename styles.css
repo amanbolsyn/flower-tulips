@@ -19,12 +19,14 @@ body {
     "tulip-1";
     grid-template-rows: 1fr;
     height: 100vh;
+    place-items: center;
 }
 
 .tulip-1 {
     position: relative;
     grid-area: tulip-1;
     width: 400px;
+    height: 700px;
 }
 
 .bud {
